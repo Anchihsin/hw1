@@ -1,0 +1,12 @@
+right
+var firstColorSeen = getColor
+if (getColor == "blue") {down
+down
+down}
+if (getColor == "red") {up
+up
+up}
+var firstColorSeen = getColor
+if (getColor == "blue") {right}
+if (getColor == "red") {left}
+up
