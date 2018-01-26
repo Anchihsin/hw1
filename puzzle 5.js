@@ -1,17 +1,27 @@
 right
 right
-var firstColorSeen = getColor
-if (getColor == "blue") {down}
-if (getColor == "pink") {upn}
+if (getColor == "blue") {
+  down
+}
+if (getColor == "pink") {
+  up
+}
 right
 right
-var firstColorSeen = getColor
-if (getColor == "blue") {down}
-if (getColor == "pink") {upn}
+if (getColor == "blue") {
+  down
+}
+if (getColor == "pink") {
+  up
+}
 right
 right
-if (getColor == "blue") {down}
-if (getColor == "pink") {up}
+if (getColor == "blue") {
+  down
+}
+if (getColor == "pink") {
+  up
+}
 right
 right
 right
