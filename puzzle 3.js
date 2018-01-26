@@ -3,9 +3,10 @@ down
 var firstColorSeen = getColor
 down
 down
-right
+down
 right
 right
 setColor(firstColorSeen)
+right
 right
 up 
