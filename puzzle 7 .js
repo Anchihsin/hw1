@@ -1,12 +1,19 @@
-down
-down
-down
-down
-down
-down
-var firstColorSeen = getColor
-if (getColor == "pink") {right}
-right
-up
-up
-up
+function loop (){
+  while (getColor() != "red"){
+    down();
+  }
+  right();
+  right();
+  while (getColor() != "red"){
+    up();
+  }
+  right();
+  right();
+}
+
+loop();
+loop();
+while (getColor() != "red"){
+  down();
+}
+right();
