@@ -1,47 +1,30 @@
-down
-down
-down
-down
-down
-down
-down
-down
+var steps = 0
+while (steps < 8) {
+  down
+  steps = steps + 1
+}
 right
 right
-up
-up
-up
-up
-up
-up
-up
+while (steps < 7) {
+  up
+  steps = steps + 1
+}
 right
 right
-down
-down
-down
-down
-down
-down
-down
-down
+while (steps < 7) {
+  down
+  steps = steps + 1
+}
 right
 right
-up
-up
-up
-up
-up
-up
-up
+while (steps < 7) {
+  up
+  steps = steps + 1
+}
 right
 right
-down
-down
-down
-down
-down
-down
-down
-down
+while (steps < 7) {
+  down
+  steps = steps + 1
+}
 right
