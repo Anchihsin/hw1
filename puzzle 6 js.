@@ -1,6 +1,7 @@
 right();
 
 var a = getColor();
+
 function movea (){
   if (getColor() == "blue") {
   down();
