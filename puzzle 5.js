@@ -1,27 +1,27 @@
-right
-right
-if (getColor == "blue") {
-  down
+right();
+right();
+if (getColor() == "blue") {
+down();
 }
-if (getColor == "pink") {
-  up
+if (getColor()== "red") {
+up();
 }
-right
-right
-if (getColor == "blue") {
-  down
+right();
+right();
+if (getColor() == "blue") {
+down();
 }
-if (getColor == "pink") {
-  up
+if (getColor() == "red") {
+up();
 }
-right
-right
-if (getColor == "blue") {
-  down
+right();
+right();
+if (getColor() == "blue") {
+down();
 }
-if (getColor == "pink") {
-  up
+if (getColor()== "red") {
+up();
 }
-right
-right
-right
+right();
+right();
+right();
