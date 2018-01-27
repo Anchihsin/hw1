@@ -1,35 +1,20 @@
-right();
 
-var a = getColor();
-
-function movea (){
-  if (getColor() == "blue") {
-  down();
-  down();
-  down();
-  if (getColor() == "red") {
-  left();
-  down();
+function loop (){
+  while (getColor() != "red"){
+    down();
   }
- }
-}
-
-function moveb(){  
-  if (getColor()== "red") {
-  up();
-  up();
-  up();
-  if (getColor() == "blue") {
   right();
-  up();
+  right();
+  while (getColor() != "red"){
+    up();
   }
-  if (getColor() == "red"){
-  left();
-  up();
-  }
-}
+  right();
+  right();
 }
 
-
-movea();
-moveb();
+loop();
+loop();
+while (getColor() != "red"){
+  down();
+}
+right();
