@@ -1,25 +1,34 @@
-right
-if (getColor == "blue") {
- down
- down
- down
- if (getColor == "red") {
- left
- down
+right();
+
+var a = getColor();
+function movea (){
+  if (getColor() == "blue") {
+  down();
+  down();
+  down();
+  if (getColor() == "red") {
+  left();
+  down();
+  }
  }
 }
 
-
-if (getColor == "red") {
- up
- up
- up
- if (getColor == "blue") {
- right
- up
- }
- if (getColor == "red") {
- left
- up
- }
+function moveb(){  
+  if (getColor()== "red") {
+  up();
+  up();
+  up();
+  if (getColor() == "blue") {
+  right();
+  up();
+  }
+  if (getColor() == "red"){
+  left();
+  up();
+  }
 }
+}
+
+
+movea();
+moveb();
