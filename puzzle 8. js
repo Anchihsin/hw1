@@ -1,45 +1,26 @@
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-right(); 
-right(); 
-up(); 
-up();
-up();
-up();
-up();
-up();
-up();
-right(); 
-right(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down();
-right(); 
-right(); 
-up(); 
-up();
-up();
-up();
-up();
-up();
-up();
-right(); 
-right(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down(); 
-down();
-right(); 
+function A (x){
+  	y = 0;
+  	while (y<x) {
+      down(); 
+      y = y + 1
+    }
+  right();
+  right();
+}
+
+function B (x){
+  	y=0;
+  	while(y<x) {
+      up(); 
+      y=y+1
+    }
+  right();
+  right();
+}
+
+A(8); 
+B(7);
+A(7);
+B(7);
+A(7); 
+right();
