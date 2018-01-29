@@ -1,4 +1,24 @@
-down();
-right();
-up();
-left(); 
+var steps = 0
+while (steps < 20){
+  down();
+  setColor("red");
+  steps = steps + 1
+}
+var steps = 0
+while (steps < 10){
+  right();
+  setColor("red");
+  steps = steps + 1
+}
+var steps = 0
+while (steps < 20){
+  up();
+  setColor("red");
+  steps = steps + 1
+}
+var steps = 0
+while (steps < 10){
+  left();
+  setColor("red");
+  steps = steps + 1
+} 
